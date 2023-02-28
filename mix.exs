@@ -1,11 +1,11 @@
-defmodule ElixirCardDealer.MixProject do
+defmodule Cards.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :elixir_card_dealer,
-      version: "0.1.0",
-      elixir: "~> 1.12",
+      app: :cards,
+      version: "0.1.1",
+      elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -21,7 +21,9 @@ defmodule ElixirCardDealer.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, "~> 0.25.5"}
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:ex_doc, "~> 0.29.1"}
     ]
   end
 end

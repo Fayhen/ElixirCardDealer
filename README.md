@@ -13,7 +13,7 @@ Please ensure you have both Elixir and Erlang installed and available on your ma
 mix deps.get
 ```
 
-This project uses [ex_doc](https://hexdocs.pm/ex_doc/readme.html) to generate documentation files. Generate documentation by running the command below on your terminal. Files are outputed to the `/doc` directory.
+This project uses [ex_doc](https://hexdocs.pm/ex_doc/readme.html) to generate documentation files. Generate documentation by running the command below on your terminal. Files are outputted to the `/doc` directory.
 
 ```
 mix docs
